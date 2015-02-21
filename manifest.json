@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Panic Button",
+  "description": "This extension closes all the current tabs and opens a pre-configured tab",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "PANIC!!!!!"
+  },
+  "background": {
+    "page": "panic.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
